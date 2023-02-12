@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Righteous', cursive;
+}
+
+header{
+    display: flex;
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    height: 80px;
+}
+.titulo{
+    padding: 20px;
+    color: rgb(237, 9, 9);
+    width: 70%;
+    font-family: 'Righteous', cursive;
+}
+.menu{
+    width: 30%;
+    display: flex;
+    font-family: 'Righteous';
+}
+header a{
+    color: rgb(255, 255,255);
+    text-decoration: none;
+    padding: 10px;
+}
+ul{
+    margin-top: 18px;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+.imagem_principal{
+    height: 600px;
+}
+.logo{
+    margin-top: 100px;
+    padding: 20px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.conteudo_main1{
+    width: 60%;
+    font-family: 'Righteous';
+}
+.conteudo_main2{
+    width: 40%;
+}
+h2{
+    color: rgb(237, 9, 9);
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+h3{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+button{
+    margin-left: 200px;
+    margin-top: 190px;
+    padding: 20px 50px 20px 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(237, 9, 9);
+    border-radius: 20px;
+
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(38, 38, 38);
+}
+.logos{
+    margin-left: 44%;
+}
